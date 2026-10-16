@@ -28,17 +28,8 @@ School College 💫
 আপনার **Termux** অ্যাপে নিচের কমান্ডগুলো পর পর রান করুন:
 
 ```bash
-# ১. গিটহাব থেকে রিপোজিটরি ক্লোন করুন
-git clone [https://github.com/kgf-cyber-123/Ellin.git](https://github.com/kgf-cyber-123/Ellin.git)
-
-# ২. ফোল্ডারে প্রবেশ করুন
+git clone https://github.com/kgf-cyber-123/Ellin.git
 cd Ellin
-
-# ৩. লেটেস্ট আপডেট পুল করুন
 git pull
-
-# ৪. ফাইল এক্সিকিউট পারমিশন দিন
 chmod +x School_teacher.py
-
-# ৫. টুলটি রান করুন
 python School_teacher.py
